@@ -75,7 +75,7 @@ sudo systemctl start mongod.service
 ```
 use admin
 
-db.createUser({ user: "mongoadmin" , pwd: "mongoadmin", roles: ["userAdminAnyDatabase", "dbAdminAnyDatabase", "readWriteAnyDatabase"]})
+db.createUser({ user: "admin" , pwd: "admin", roles: ["userAdminAnyDatabase", "dbAdminAnyDatabase", "readWriteAnyDatabase"]})
 
 ```
 4. Log in to mongo as the new user
